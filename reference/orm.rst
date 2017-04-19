@@ -118,7 +118,7 @@ text, date, datetime, selection, many2one)被同时获取到；它们对应于�
 * ``record in set`` 是否返回 ``record`` (第一项必须是一个元素的记录集)
   在 ``set`` 中 。 ``record not in set`` 是相反的操作
 * ``set1 <= set2`` 和 ``set1 < set2`` 返回是否 ``set1`` 是 ``set2`` 的子集
-* ``set1 >= set2`` 和 ``set1 > set2`` 返回是否 ``set1`` 是 ``set2`` 的超级
+* ``set1 >= set2`` 和 ``set1 > set2`` 返回是否 ``set1`` 是 ``set2`` 的超集
 * ``set1 | set2`` 返回两个集合的合集,一个新的记录集包括任一个集合中的所有记录
 * ``set1 & set2`` 返回两个集合的并集,一个新的记录集仅包括两个集合中都有的记录
 * ``set1 - set2`` 返回一个记录在 ``set1`` 而不 ``set2`` 中的新的记录集
